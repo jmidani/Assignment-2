@@ -1,3 +1,5 @@
+// Jana El Midany 900226145
+//Checks what cluster is closest to a point (class 1-D dynamic arrays)
 #include <iostream>
 #include <cstdlib>
 #include "point.h"
@@ -9,7 +11,11 @@ void Populate(point*,int, int, int);
 
 int main(){
     point *A, *B, *P;
-    int n=200, m=30;
+    int n, m;
+    cout<<"Enter size of clusters: ";
+    cin>>n;
+    cout<<"Enter number of points: ";
+    cin>>m;
     A= new point[n];
     B= new point[n];
     P= new point [m];
