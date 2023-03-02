@@ -27,7 +27,7 @@ int main(){
     for(int i=0;i<m;i++){
         point current_p=*(P+i);
         char closest=ClosestCluster(A,B,current_p,n,n);
-        cout<<"Point P"<<i+1<<" should belong to cluster "<<closest<<endl;
+        cout<<"Point "<<i+1<<" should belong to cluster "<<closest<<endl;
     }
     
     delete[]A;
