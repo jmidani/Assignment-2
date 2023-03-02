@@ -5,9 +5,9 @@
 #include "point.h"
 using namespace std;
 
-point Center(point*,int);
-char ClosestCluster(point*,point*,point,int,int);
-void Populate(point*,int, int, int);
+point Center(point*,int); //returns center point in a cluster
+char ClosestCluster(point*,point*,point,int,int); //determines which cluster point is closest to
+void Populate(point*,int, int, int); //populates dynamic 1-D array with random points within given range
 
 int main(){
     point *A, *B, *P;
